@@ -75,5 +75,6 @@ public class Initiation {
         System.out.println("Quelle est votre ville de naissance?");
         String ville = scanner.nextLine();
         System.out.println("Vous vous appelez " + nom + " " + prenom + " et vous êtes né le " + date + " à " + ville);
+        System.out.println(nom);
     }
 }
